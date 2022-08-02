@@ -24,5 +24,8 @@ jobs:
           plugin_lines: yes
           plugin_activity: yes
           plugin_activity_limit: 5
-          config_order: base.header, base.repositories, isocalendar, languages, lines, activity
+          plugin_topics: yes
+          plugin_topics_limit: 5
+          plugin_topics_mode: icons
+          config_order: base.header, base.repositories, topics, isocalendar, languages, lines, activity
           

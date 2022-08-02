@@ -15,7 +15,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          config_display: columns
+          config_display: large
           config_timezone: America/Santiago
           filename: metrics.classic.svg
           base: header, repositories
